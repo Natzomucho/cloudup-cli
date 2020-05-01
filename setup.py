@@ -1,10 +1,10 @@
 from setuptools import setup
 setup(
-    name = 'cloudup-cli',
+    name = 'ccli',
     version = '0.1.0',
-    packages = ['cloudup-cli'],
+    packages = ['ccli'],
     entry_points = {
         'console_scripts': [
-            'cldup = cloudup-cli.__main__:main'
+            'ccli=ccli.__main__:main'
         ]
     })
